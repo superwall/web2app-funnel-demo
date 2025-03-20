@@ -1,0 +1,25 @@
+[site]
+bucket = "./dist"
+entry-point = "."
+
+# Modify these according to your project needs
+compatibility_date = "2023-12-01"
+compatibility_flags = []
+
+# Function binding configuration
+[build]
+command = "yarn build"
+
+[build.upload]
+format = "service-worker"
+
+# Functions directory configuration
+[functions]
+directory = "functions"
+
+# Uncomment and modify if you need environment variables
+# [env.production]
+# VARIABLE_NAME = "production_value"
+
+# [env.staging]
+# VARIABLE_NAME = "staging_value" 

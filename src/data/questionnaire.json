@@ -1,0 +1,171 @@
+{
+  "theme": {
+    "colors": {
+      "primary": {
+        "50": "#eef2ff",
+        "100": "#e0e7ff",
+        "200": "#c7d2fe",
+        "300": "#a5b4fc",
+        "400": "#818cf8",
+        "500": "#6366f1",
+        "600": "#4f46e5",
+        "700": "#4338ca",
+        "800": "#3730a3",
+        "900": "#312e81",
+        "950": "#1e1b4b"
+      },
+      "background": {
+        "light": "#f9fafb",
+        "default": "#f3f4f6",
+        "dark": "#e5e7eb"
+      }
+    },
+    "fonts": {
+      "heading": ["Madimi One", "system-ui", "sans-serif"],
+      "body": ["Rubik", "system-ui", "sans-serif"],
+      "google": [
+        {
+          "family": "Rubik",
+          "weights": [300, 400, 500, 600, 700, 800, 900]
+        },
+        {
+          "family": "Madimi One",
+          "weights": [400]
+        }
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "1",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/21/7c/3a217cd8-db56-a26c-3a2d-c8bece786788/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.jpeg/1024x1024w.png",
+      "title": "Welcome to Cancel Subscriptions!",
+      "subtitle": "Easily manage and cancel unwanted subscriptions.",
+      "questionType": "interstitial",
+      "nextButtonText": "Get Started",
+      "required": false,
+      "nextButtonAlign": "center"
+    },
+    {
+      "id": "2",
+      "title": "What's your name?",
+      "subtitle": "We'll use this to personalize your experience.",
+      "questionType": "free_response",
+      "nextButtonText": "Continue",
+      "required": false,
+      "nextButtonAlign": "center"
+    },
+    {
+      "id": "3",
+      "title": "How often do you review your subscriptions?",
+      "questionType": "single_select",
+      "options": [
+        { "title": "Every month", "icon": "📅" },
+        { "title": "Every few months", "icon": "⏳" },
+        { "title": "Rarely", "icon": "😬" },
+        { "title": "I've never checked", "icon": "❓" }
+      ],
+      "required": false
+    },
+    {
+      "id": "4",
+      "title": "Which of the following services are you subscribed to?",
+      "questionType": "multiple_choice",
+      "compact": true,
+      "options": [
+        { "title": "Netflix", "icon": "�" },
+        { "title": "Spotify", "icon": "🎵" },
+        { "title": "Amazon Prime", "icon": "🛍️" },
+        { "title": "Disney+", "icon": "🎥" },
+        { "title": "Apple Music", "icon": "🎶" },
+        { "title": "Hulu", "icon": "📺" },
+        { "title": "Apple TV+", "icon": "📺" },
+        { "title": "Other", "icon": "📝" }
+      ],
+      "required": false
+    },
+    {
+      "id": "5",
+      "title": "Which types of subscriptions do you want to cancel?",
+      "subtitle": "Select all that apply.",
+      "questionType": "multiple_choice",
+      "options": [
+        {
+          "title": "Streaming Services",
+          "subtitle": "Netflix, Hulu, etc.",
+          "icon": "📺"
+        },
+        {
+          "title": "Fitness & Wellness",
+          "subtitle": "Gym, meditation apps",
+          "icon": "🏋️"
+        },
+        {
+          "title": "Shopping & Retail",
+          "subtitle": "Amazon, fashion boxes",
+          "icon": "🛍️"
+        },
+        {
+          "title": "Financial & Business",
+          "subtitle": "Credit monitoring, software",
+          "icon": "💼"
+        },
+        { "title": "Other", "subtitle": "Anything else", "icon": "❔" }
+      ],
+      "showSkipButton": true
+    },
+    {
+      "id": "6",
+      "title": "How do you currently cancel subscriptions?",
+      "questionType": "single_select",
+      "options": [
+        { "title": "Manually through the app", "icon": "🔍" },
+        { "title": "Through my bank", "icon": "🏦" },
+        { "title": "I just let them charge me", "icon": "💳" },
+        { "title": "I don't know how", "icon": "❓" }
+      ],
+      "required": false
+    },
+    {
+      "id": "7",
+      "title": "Would you like automatic reminders for upcoming charges?",
+      "subtitle": "Get notified before you're charged.",
+      "questionType": "single_select",
+      "options": [
+        { "title": "Yes, send me alerts", "icon": "🔔" },
+        { "title": "No, I'll check manually", "icon": "🙅" }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Do you want help getting refunds for unwanted charges?",
+      "subtitle": "We can guide you through the process.",
+      "questionType": "single_select",
+      "options": [
+        { "title": "Yes, I'd love that", "icon": "💰" },
+        { "title": "No, just cancellations", "icon": "🚫" }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Would you like to track all your subscriptions in one place?",
+      "subtitle": "See all your recurring payments in one dashboard.",
+      "questionType": "single_select",
+      "options": [
+        { "title": "Yes, that would help", "icon": "📊" },
+        { "title": "No, just cancelations", "icon": "❌" }
+      ]
+    },
+    {
+      "id": "10",
+      "hero": "check",
+      "title": "You're all set!",
+      "subtitle": "Start managing and canceling your subscriptions now.",
+      "questionType": "completion",
+      "redirectUrl": "https://apps.apple.com/app/id6444500753",
+      "autoRedirect": true,
+      "nextButtonText": "Finish Setup",
+      "nextButtonAlign": "center"
+    }
+  ]
+}
